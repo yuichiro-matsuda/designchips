@@ -1,0 +1,21 @@
+header {
+  @extend .navbar;
+  @extend .navbar-default;
+  @extend .navbar-static-top;
+}
+
+.navigation__global--default {
+  @extend .navbar-collapse;
+  @extend .collapse;
+}
+
+.navmenu__toggle--default {
+  @extend .nav;
+  @extend .navbar-nav;
+}
+
+.navmenu__toggle--right {
+  @extend .nav;
+  @extend .navbar-nav;
+  @extend .navbar-right;
+}
